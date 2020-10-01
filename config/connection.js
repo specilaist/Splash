@@ -2,7 +2,7 @@ const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
   host: 'localhost',
-  user: 'me',
+  user: 'root',
   password: 'password',
   database: 'splash_db',
 }).promise();
